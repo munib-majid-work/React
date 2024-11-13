@@ -22,6 +22,7 @@ const Home = () => {
         <div className="text-center bg-green-500">06</div>
         <div className="text-center bg-green-600">07</div>
         <div className="text-center bg-green-700">08</div>
+        <div className="text-center bg-green-700">09</div>
       </div>
     </>
   );

@@ -5,6 +5,7 @@ const AuthForm = () => {
     email: "",
     password: "",
   });
+  // Changes done
 
   const [erros, setErros] = useState({
     email: "",

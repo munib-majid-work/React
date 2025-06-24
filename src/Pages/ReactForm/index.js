@@ -27,7 +27,7 @@ const ReactForm = () => {
               })}
             />
           </div>
-          {errors?.email && errors?.email?.type == "pattern" && (
+          {errors?.email && errors?.email?.type === "pattern" && (
             <div className="text-red-500 ms-4">
               {" "}
               Email pattern is not well defiend

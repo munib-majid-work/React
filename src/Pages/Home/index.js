@@ -1,4 +1,3 @@
-import { useEffect, useState } from "react";
 import { NavBar } from "../../Components";
 
 const Home = () => {

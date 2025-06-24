@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import { Home, AboutUs, Todos, Form, ReactForm } from "./Pages";
 
 function App() {
-  const mainStyle = "text-gray-500 text-4xl";
   return (
     <div className="App">
       <Routes>

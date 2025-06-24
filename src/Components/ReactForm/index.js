@@ -30,10 +30,10 @@ const ReactForm = () => {
               })}
             />
           </div>
-          {errors?.email && errors?.email?.type == "required" && (
+          {errors?.email && errors?.email?.type === "required" && (
             <div className="text-red-500"> Error: email cannot be empty</div>
           )}
-          {errors?.email && errors?.email?.type == "pattern" && (
+          {errors?.email && errors?.email?.type === "pattern" && (
             <div className="text-red-500">
               Error: Email pattern should be xxxxxx@domain.xx
             </div>
